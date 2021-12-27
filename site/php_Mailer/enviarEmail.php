@@ -17,8 +17,8 @@ try
     // Configurações do servidor
     $mail->isSMTP();        //Devine o uso de SMTP no envio
     $mail->SMTPAuth = true; //Habilita a autenticação SMTP
-    $mail->Username   = 'humanize.Teletrabalho@gmail.com';
-    $mail->Password   = 'H@_Humanize_@H';
+    $mail->Username   = 'EMAIL_QUE_VAI_ENVIAR';
+    $mail->Password   = 'SENHA_DO_EMAIL';
     // Criptografia do envio SSL também é aceito
     $mail->SMTPSecure = 'tls';
     // Informações específicadas pelo Google
